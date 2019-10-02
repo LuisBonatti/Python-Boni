@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>{{ nome }}</title>
+        <link rel="stylesheet" href="../static/estilos.css">
+    </head>
+    <body>
+        <div class="cabecalho">
+            <h1>{{Nome}}</h1>
+
+        </div>
+        <div class= "novo">
+            <a href="/novo">Novo Aluno</a>
+        </div>
+        <!-- <form action="/novo"> -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <body>
+                {% for a in lista %}
+                <tr>
+                    <td>{{ a.nome_completo() }}</td>
+                    <td>{{ a.Telefone }}</td>
+                </tr>
+                {% endfor %}  
+            </body>
+        </table> 
+        <!-- <div>
+            <input type="submit" value = "Novo">
+        </div> -->
+        <!-- </form> -->
+    </body>
+</html>

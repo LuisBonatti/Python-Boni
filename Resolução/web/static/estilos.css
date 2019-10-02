@@ -1,0 +1,55 @@
+body{
+    background: #7e3131;
+}
+.cabecalho, .novo{
+    width:60%;
+    margin:auto;  
+}
+.novo a{
+    height: 1em;
+    padding: 0.5em 0.5em;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    color: #000000;
+    text-decoration: none;
+    background: #cccccc
+}
+.novo a:hover{
+    background: #000000;
+    color: #cccccc;
+    
+}
+table{
+    width:60%;
+    margin: 2em auto;
+    border: #ffffff;
+}
+thead{
+    background: #000000;
+    color: #ffffff;
+    height: 4em;
+}
+th{
+    height: 2em;
+    text-align: left;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+td{
+    height: 1.5em;
+    padding: 0.5em 1em;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background: #7e3131;
+}
+td:hover{
+    background: #000000;
+    color: #7e3131;
+}
+tbody tr:hover{
+    background: #607ddf;
+}
+input{
+    text-align: center
+}
