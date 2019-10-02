@@ -1,5 +1,5 @@
 print ('='*60)
-
+# imprimindo salario
 salario = float(input('{}Digite o salario liquido: '.format(' '*5)))
 
 print ('{}O salário liquido é:{} R$:{:8.2f}'.format (' '*5,' '*16, salario))
