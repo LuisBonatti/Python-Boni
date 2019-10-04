@@ -1,0 +1,25 @@
+{% extends "tbl.html" %}
+{% block conteudo %}
+<form action="/salvar"method="POST">
+    <div class="btn_name">
+    </div>
+        <input type="text" name="nome" placeholder="Nome"> <br/>
+    <div class="btn_name">
+    </div>   
+        <input type="text" name="tipo" placeholder="Tipo"> <br/>
+    <div class="btn_name">
+    </div>   
+        <input type="text" name="validade" placeholder="Validade"> <br/>
+    <div class="btn_name">
+    </div>   
+        <input type="text" name="codigo" placeholder="codigo"> <br/>
+    <div class="btn_name">
+    
+    </div>
+        <input type="text" name="preco" placeholder="Preço"> <br/>
+    <hr/>
+        <input type="submit" value= "Salvar" class= "btn_salvar" >
+    </div>
+</form>
+
+{% endblock %}

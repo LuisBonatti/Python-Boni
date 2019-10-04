@@ -1,0 +1,19 @@
+{% extends "tbl.html" %}
+{% block conteudo %}
+<form action="/pedido"method="POST">
+    <div class="btn_name1">
+        <input type="text" name="nome" placeholder="Nome"> <br/>
+    </div class="btn_name1">
+    <div>   
+        <input type="text" name="tipo" placeholder="Tipo"> <br/>
+    </div>
+    <div>
+        <input type="text" name="quandidade" placeholder="Quantidade">
+    </div>
+    
+    </div>
+    <hr/>
+        <input type="submit" value= "pedir" class= "btn_pedido" >
+    </div>
+</form>
+{% endblock %}
